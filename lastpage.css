@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier", monospace;
+  background-color: #ffe3e1; /* Improved background color */
+  color: #e67373; /* Improved text color */
+}
+
+.container {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff5e4; /* Container background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.message {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ff9494; /* Adjusted message color */
+}
+
+.gif-container {
+  margin-top: 20px;
+}
+
+.gif-container img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}

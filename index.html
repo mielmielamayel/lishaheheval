@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css"> <!-- You can create a style for your landing page if needed -->
+  <title>Your Valentine's Surprise</title>
+</head>
+
+<body>
+  <div class="container">
+    <button onclick="redirectToIndex()">Continue</button>
+    <button onclick="redirectToSpotify()">Music</button>
+    <img src="your_gif.gif" alt="GIF description"> <!-- Replace "your_gif.gif" with the actual filename of your GIF -->
+  </div>
+
+  <script>
+    function redirectToIndex() {
+      window.location.href = "firstpage.html";
+    }
+
+    function redirectToSpotify() {
+      window.open("https://open.spotify.com/track/6cx5CvFhqN19efStehJqoW?si=5c2e709642e34620", "_blank");
+    }
+  </script>
+</body>
+
+</html>
